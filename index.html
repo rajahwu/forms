@@ -9,12 +9,33 @@
 <body>
     <fieldset>
         <legend>Add User</legend>
+        <div>
         <label for="first_name">First Name</label>
         <input type="text"  name="first_name" id="first_name">
         <label for="last_name">Last Name</label>
         <input type="text" name="last_name" id="last_name">
         <label for="email">Email</label>
         <input type="email" name="email_address" id="email_address">
+        <p></p> <!-- p tag for spacing -->
+    </div>
+    <div>
+        <label for="status">Status</label>
+        <select name="status" id="status">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="Guest">Guest</option>
+        </select>
+    </div>
+    <div>
+        <p>Choose your favorite programming language:</p>
+        <input type="radio" id="html" name="html_lang" value="html">
+        <label for="">HTML</label>
+        <input type="radio" id="css" name="css_lang" value="css">
+        <label for="">CSS</label>
+        <input type="radio" id="javascript" name="js_lang" value="javascript" checked>
+        <label for="">JavaScript</label>
+    </div>
+    
     </fieldset>
 </body>
 </html>
